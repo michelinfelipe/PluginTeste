@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Scanner</title>
+    <style>
+        body {
+            width: 200px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="scanButton">Escanear por Emoções</button>
+
+    <script>
+        document.getElementById('scanButton').addEventListener('click', function () {
+            // Enviando mensagem para o background script indicando que é hora de realizar a análise de sentimento
+            chrome.runtime.sendMessage({ iniciarAnaliseSentimento: true }, function (response) {
+                console.log(response);
+            });
+        });
+    </script>
+</body>
+
+</html>
