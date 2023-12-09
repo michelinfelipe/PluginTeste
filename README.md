@@ -48,7 +48,9 @@ Os erros mais comuns encontrados foram:
 -Syxtax_Export ou algo assim. Desculpe, não tenho mais ele em mãos, pois alterei levemente o código mas não consegui passar muito por ele. Esse erro surgia na página de trás do plugin
 Esse erro acontecia na ultima linha do Transformers que não conseguia exportar o resultado de volta para o console, que eu acredito que era o sentiment analysis. Não está aparecendo atualmente, mas
 creio que ainda seja relevante.
--Console logando apenas até 
+-Console logando apenas até onde o texto é selecionado
+-Como o chatgpt usa uma biblioteca meio antiga, o manifest version tá como 2, e o chrome diz que desde recentemente não oferece mais suporte. 
+Eu tentei usar o 3 mas me pareceu que tava piorando os erros e os métodos, então mantive no 2.
 
 ###Etapa atual###
 Atualmente, o console loga o texto selecionado, e apenas isso. Exemplo:
