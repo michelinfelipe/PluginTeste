@@ -39,30 +39,30 @@ Pesquisei muito também no stackoverflow, no github, tantos dúvidas de erros co
 ###Erros encontrados e possívelmente resolvidos###
 Estes erros estão logados porque, apesar de eu acreditar que foram superados, talvez sejam relevantes.
 Os erros mais comuns encontrados foram:
--Incontáveis erros de sintaxe
--Erros que não apareciam no console e em nenhum lugar, onde precisei fazer vários console.log para entende-los melhor.
--a violação do Content Security Policy, que eu nem sabia que existia. Acabou que sumiu eventualmente e não sei como, rs. Acho que estava executando as coisas importadas de forma imprudente.
--Muitos arquivos criados. Exclui uns 4 arquivos que o chatgpt sugeria pra me escrever, e claro, por ele ser apenas um chatbot, depois mudava de ideia e eles continuavam lá. Revisei muito pra isso.
+#Incontáveis erros de sintaxe
+#Erros que não apareciam no console e em nenhum lugar, onde precisei fazer vários console.log para entende-los melhor.
+#A violação do Content Security Policy, que eu nem sabia que existia. Acabou que sumiu eventualmente e não sei como, rs. Acho que estava executando as coisas importadas de forma imprudente.
+#Muitos arquivos criados. Exclui uns 4 arquivos que o chatgpt sugeria pra me escrever, e claro, por ele ser apenas um chatbot, depois mudava de ideia e eles continuavam lá. Revisei muito pra isso.
 
 ###Erros persistentes:###
--Syxtax_Export ou algo assim. Desculpe, não tenho mais ele em mãos, pois alterei levemente o código mas não consegui passar muito por ele. Esse erro surgia na página de trás do plugin
+#Syxtax_Export ou algo assim. Desculpe, não tenho mais ele em mãos, pois alterei levemente o código mas não consegui passar muito por ele. Esse erro surgia na página de trás do plugin
 Esse erro acontecia na ultima linha do Transformers que não conseguia exportar o resultado de volta para o console, que eu acredito que era o sentiment analysis. Não está aparecendo atualmente, mas
 creio que ainda seja relevante.
--Console logando apenas até onde o texto é selecionado
--Como o chatgpt usa uma biblioteca meio antiga, o manifest version tá como 2, e o chrome diz que desde recentemente não oferece mais suporte. 
+#Console logando apenas até onde o texto é selecionado
+#Como o chatgpt usa uma biblioteca meio antiga, o manifest version tá como 2, e o chrome diz que desde recentemente não oferece mais suporte. 
 Eu tentei usar o 3 mas me pareceu que tava piorando os erros e os métodos, então mantive no 2.
 
 ###Etapa atual###
-Atualmente, o console loga o texto selecionado, e apenas isso. Exemplo:
+#Atualmente, o console loga o texto selecionado, e apenas isso. Exemplo:
 
 Script content.js carregado com sucesso!
 content.js:8 Mensagem recebida do background script: {iniciarAnaliseSentimento: true}
 content.js:12 Iniciando a análise de sentimento...
 
-Pelo meu entendimento, ainda há um problema na comunicação, talvez entre o bert e o transformers, pois não há o resultado da análise de sentimento.
+#Pelo meu entendimento, ainda há um problema na comunicação, talvez entre o bert e o transformers, pois não há o resultado da análise de sentimento.
 O erro de export em #erros persistentes# poderia indicar que o problema era no transformers, mas agora não sei mais. 
 
-Estou enviando neste github porque eu achei que era a melhor solução, pois todos os métodos que eu pensei não pareceram que avançaram, apenas circulando entre os erros.
+#Estou enviando neste github porque eu achei que era a melhor solução, pois todos os métodos que eu pensei não pareceram que avançaram, apenas circulando entre os erros.
 É o terceiro dia e umas 30 horas (30 horas mesmo, sem enrolar) já foram usadas pra isso, e destas apenas umas 10 foram realmente produtivas, e eu sentia que estava avançando no processo.
 Os últimos 2 dias foram muito frustrantes e então estou publicando aqui para pedir ajuda nos erros citados acima. 
 O maior erro parece ser com o Bert, que utiliza a PLN e se comunica pelo Transformers. O código atual parece que não consegue fazer a análise de sentimento e apenas recebe o texto e manda pra eles.
