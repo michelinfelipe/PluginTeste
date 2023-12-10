@@ -5,14 +5,14 @@ Testando fazer um plugin que, ao usuário selecionar um texto do Chrome e clicar
 ************************************************************************************************
 ## Motivações
 A alura deixou de ser produtiva quando meu maior motivo de realiza-la se tornou correr com as aulas,<br> 
-e apenas replicando o que era feito não me dava nenhum repositório (até porque não gosto da ideia de colocar coisa em portifólio que é ensinado padrão), <br>
+e apenas replicando o que era feito não me dava nenhum repositório (até porque não gosto da ideia de colocar coisa em portifólio que é ensinado padrão),
 Então decidi de forma meio desesperada de tentar aprender de outro método, pra provar (principalmente pra mim mesmo) que eu era capaz.<br>
 Um dos maiores motivos foi ter um projeto para apresentar para a CooTea, mas esse motivo pode ser dividido em motivos menores, rs.<br>
 Além de grato pela plataforma da Adapte, senti a ausência das demonstrações de projeto durante o percurso das reuniões.<br>
 Em decorrência do início, fiquei num atraso constante e não me sentia confortável em apresentar 1- os mesmos projetos dos quais eram ensinados e 2- projetos atrasados.<br>
 Assim, compreendo e agonio-me no que estes silêncios significam: de que eu não estava fazendo nada.<br>
 E ver os vídeos apressados da alura não estavam me ajudando a fazer nada, nestas ultimas semanas em que tentei correr atrás.<br>
-Então, de última hora em última semana, decidi fazer um plugin do Chrome, algo levemente diferente mas que usava recursos que estávamos vendo, <br>
+Então, de última hora em última semana, decidi fazer um plugin do Chrome, algo levemente diferente mas que usava recursos que estávamos vendo,
 pra não apenas botar em uma prática levemente diferente do que estávamos vendo (e então eu me sentiria confortável de compartilhar), <br>
 mas também pra, novamente, demonstrar que eu sou capaz.<br>
 Neste README há então registros do meu processo de fazer o plugin.
