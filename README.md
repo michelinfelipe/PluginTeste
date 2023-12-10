@@ -5,7 +5,7 @@ Testando fazer um plugin que, ao usuário selecionar um texto do Chrome e clicar
 ************************************************************************************************
 ## Motivações
 A alura deixou de ser produtiva quando meu maior motivo de realiza-la se tornou correr com as aulas,<br> 
-e apenas replicando o que era feito não me dava nenhum repositório (até porque não gosto da ideia de colocar coisa em portifólio que é ensinado padrão),
+e apenas replicando o que era feito não me dava nenhum repositório (até porque não gosto da ideia de colocar coisa em portifólio que é ensinado padrão), <br>
 Então decidi de forma meio desesperada de tentar aprender de outro método, pra provar (principalmente pra mim mesmo) que eu era capaz.<br>
 Um dos maiores motivos foi ter um projeto para apresentar para a CooTea, mas esse motivo pode ser dividido em motivos menores, rs.<br>
 Além de grato pela plataforma da Adapte, senti a ausência das demonstrações de projeto durante o percurso das reuniões.<br>
@@ -13,7 +13,7 @@ Em decorrência do início, fiquei num atraso constante e não me sentia confort
 Assim, compreendo e agonio-me no que estes silêncios significam: de que eu não estava fazendo nada.<br>
 E ver os vídeos apressados da alura não estavam me ajudando a fazer nada, nestas ultimas semanas em que tentei correr atrás.<br>
 Então, de última hora em última semana, decidi fazer um plugin do Chrome, algo levemente diferente mas que usava recursos que estávamos vendo,
-pra não apenas botar em uma prática levemente diferente do que estávamos vendo (e então eu me sentiria confortável de compartilhar), <br>
+pra não apenas botar em uma prática levemente diferente do que estávamos vendo (e então eu me sentiria confortável de compartilhar),
 mas também pra, novamente, demonstrar que eu sou capaz.<br>
 Neste README há então registros do meu processo de fazer o plugin.
 # Métodos
@@ -23,7 +23,7 @@ Criei uma primeira extensão teste no chrome, utilizando o guia deles, encontrad
 https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?hl=pt-br <br>
 Depois disso, usei o temível chatgpt, e por isso preciso esclarecer algumas coisas de antemão: <br>
 Nas primeiras horas, ele me sugeriu conceitualmente os caminhos que eu devia tomar, e as ferramentas para tal. Fui pesquisando e fazendo. <br>
-Os arquivos e códigos que ele foi sugerindo, nas primeiras horas (eu fiquei 15 horas num dia só conversando com ele e modificando o código no primeiro dia), <br>
+Os arquivos e códigos que ele foi sugerindo, nas primeiras horas (eu fiquei 15 horas num dia só conversando com ele e modificando o código no primeiro dia),
 eu fui copiando pela digitação - letra por letra, para me acostumar com as sintaxes e entender melhor o que cada linha faz.<br>
 Quando não entendia certa função, perguntava pra ele o que ela fazia. As primeiras horas foram bem longas por causa disso.<br>
 Muitos erros eram gerados por vírgulas, typos e afins que o coitado chatbot glorificado me corrigiu.<br>
@@ -39,8 +39,7 @@ Os erros mais comuns encontrados foram:<br>
 -A violação do Content Security Policy, que eu nem sabia que existia. Acabou que sumiu eventualmente e não sei como, rs. Acho que estava executando as coisas importadas de forma imprudente.<br>
 -Muitos arquivos criados. Exclui uns 4 arquivos que o chatgpt sugeria pra me escrever, e claro, por ele ser apenas um chatbot, depois mudava de ideia e eles continuavam lá. Revisei muito pra isso.<br>
 ## Erros persistentes:
--Syxtax_Export ou algo assim. Desculpe, não tenho mais ele em mãos, pois alterei levemente o código mas não consegui passar muito por ele. Esse erro surgia na página de trás do plugin<br>
-Esse erro acontecia na ultima linha do Transformers que não conseguia exportar o resultado de volta para o console, que eu acredito que era o sentiment analysis. Não está aparecendo atualmente, mas creio que ainda seja relevante.<br>
+-Syxtax_Export ou algo assim. Desculpe, não tenho mais ele em mãos, pois alterei levemente o código mas não consegui passar muito por ele. Esse erro surgia na página de trás do plugin, e acontecia na ultima linha do Transformers que não conseguia exportar o resultado de volta para o console, que eu acredito que era o sentiment analysis. Não está aparecendo atualmente, mas creio que ainda seja relevante.<br>
 -Console logando apenas até onde o texto é selecionado<br>
 -Como o chatgpt usa uma biblioteca meio antiga, o manifest version tá como 2, e o chrome diz que desde recentemente não oferece mais suporte. <br>
 Eu tentei usar o 3 mas me pareceu que tava piorando os erros e os métodos, então mantive no 2.
