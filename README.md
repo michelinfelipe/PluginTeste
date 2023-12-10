@@ -1,3 +1,4 @@
+﻿
 # PluginTeste
 Testando fazer um plugin que, ao usuário selecionar um texto do Chrome e clicar com o botão direito do mouse, uma opção "escanear emoções" apareça, e utilizando do Bert e Transformers, uma análise de sentimentos seja feita com o texto selecionado. 
 
@@ -71,3 +72,4 @@ Os últimos 2 dias foram muito frustrantes e então estou publicando aqui para p
 
 Acredito que depois disso resolvido, apenas gostaria de mudar para que o sentiment analysis fosse exibido no chrome da pessoa, sem que ela precisasse ir direto pro console.
 #Inicialmente, eu queria indicativos de ironia ou sarcasmo no texto, para encaixar melhor com o tema de autismo. Essa ideia não saiu fora da mesa mas me parece que o programa não seria capaz de executar isso bem, devido a complexidade destas duas aplicações linguísticas que podem ser muito complexas. Isso foi reforçado que pareceu difícil encontrar alguma plataforma que fizesse isso em português, por isso utilizei o Bert, que aparenta fazer isso em inglês. Então, larguei mão (pelo menos por enquanto) de uma real praticidade dele. Mas deve servir como aprendizado de possíveis projetos futuros.
+
