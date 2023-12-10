@@ -54,7 +54,7 @@ Os erros mais comuns encontrados foram:<br>
 Esse erro acontecia na ultima linha do Transformers que não conseguia exportar o resultado de volta para o console, que eu acredito que era o sentiment analysis. Não está aparecendo atualmente, mas creio que ainda seja relevante.<br>
 -Console logando apenas até onde o texto é selecionado<br>
 -Como o chatgpt usa uma biblioteca meio antiga, o manifest version tá como 2, e o chrome diz que desde recentemente não oferece mais suporte. <br>
-Eu tentei usar o 3 mas me pareceu que tava piorando os erros e os métodos, então mantive no 2.
+Eu tentei usar o 3 mas me pareceu que tava piorando os erros e os métodos, então mantive no 2. <br>
 
 ## Etapa atual
 
@@ -76,7 +76,7 @@ Os últimos 2 dias foram muito frustrantes e então estou publicando aqui para p
 ## Próximas etapas:
 
 Acredito que depois disso resolvido, apenas gostaria de mudar para que o sentiment analysis fosse exibido no chrome da pessoa, sem que ela precisasse ir direto pro console.<br>
-#Inicialmente, eu queria indicativos de ironia ou sarcasmo no texto, para encaixar melhor com o tema de autismo. <br>
+Inicialmente, eu queria indicativos de ironia ou sarcasmo no texto, para encaixar melhor com o tema de autismo. <br>
 Essa ideia não saiu fora da mesa mas me parece que o programa não seria capaz de executar isso bem, devido a complexidade destas duas aplicações linguísticas que podem ser muito complexas.<br>
 Isso foi reforçado que pareceu difícil encontrar alguma plataforma que fizesse isso em português, por isso utilizei o Bert, que aparenta fazer isso em inglês. <br>
 Então, larguei mão (pelo menos por enquanto) de uma real praticidade dele. Mas deve servir como aprendizado de possíveis projetos futuros.<br>
